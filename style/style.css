@@ -1,0 +1,48 @@
+body {
+  margin: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.stylish-body {
+  border: 3px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px;
+}
+
+.heading-text {
+  color: black;
+}
+
+.heading-text:hover {
+  color: rgb(113, 113, 113);
+  cursor: pointer;
+}
+
+.profile-pic {
+  border-radius: 20px;
+  box-shadow: 5px 5px;
+}
+
+.text-shadow {
+  text-shadow: 2.5px 2.5px rgb(165, 165, 165);
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #000000, white 10%, #000000 20%);
+  background-clip: text;
+  background-position: 0;
+  background-size: 300px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-animation 2s infinite linear;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 300px;
+  }
+}
